@@ -111,37 +111,44 @@ int main()
 	}*/
 
 
-
-
-
-
-//2439번 풀기
-	int A = 0;
-	int B = 0;
+	//2439번 풀기
+//어려워서 한참 헤맨 문제
+//틀에 박힌 생각을 깨뜨리자
+	/*int i = 0;
+	int j = 0;
 	int count = 0;
-	scanf_s("%d", &count);
 
-	for (int j = 1; j < count; j++) {
-		for (int i = count - 1; i > count; i--)
+	scanf_s("%d", &count);
+	for (i = 0; i < count; i++)
+	{
+		for (j = 0; j < count; j++)
 		{
-			putchar('@');
-		}
-		for (int k = 0; k < j; k++)
-		{
-			putchar('*');
+			if (j < count - i - 1)
+			{
+				printf(" ");
+			}
+			else
+			{
+				printf("*");
+			}
 		}
 		putchar('\n');
-	}
+	}*/
+
+
+
+	//10871
+
+int N = 0;
+scanf_s("%d", &N);
+
+
+
 
 
 
 
 
 	return 0;
-
-
-
-
-
 
 }
